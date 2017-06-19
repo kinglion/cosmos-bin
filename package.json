@@ -1,0 +1,41 @@
+{
+  "name": "cosmos-bin",
+  "version": "1.0.0",
+  "description": "cosmos helper tool",
+  "main": "index.js",
+  "bin": {
+    "cosmos-bin": "bin/cosmos-bin.js"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run lint -- --fix && npm run test-local",
+    "test-local": "node ./bin/cosmos-bin.js test -t 3600000",
+    "cov": "node ./bin/cosmos-bin.js cov -t 3600000",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kinglion/cosmos-bin.git"
+  },
+  "keywords": [
+    "cosmos"
+  ],
+  "author": "kinglion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kinglion/cosmos-bin/issues"
+  },
+  "homepage": "https://github.com/kinglion/cosmos-bin#readme",
+  "dependencies": {
+    "co-mocha": "^1.2.0",
+    "common-bin": "^2.2.0",
+    "globby": "^6.1.0",
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.2.0"
+  },
+  "devDependencies": {
+    "coffee": "^3.3.0",
+    "mm": "^2.1.0"
+  }
+}

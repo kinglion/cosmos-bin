@@ -1,0 +1,7 @@
+{
+  "name": "my-cosmos-bin",
+  "version": "1.0.0",
+  "bin": {
+    "my-cosmos-bin": "bin/my-cosmos-bin.js"
+  }
+}
