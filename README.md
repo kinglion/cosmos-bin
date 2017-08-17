@@ -15,3 +15,4 @@ npm install cosmos-bin -g
 cosmos-bin tinypng
 ```
 
+![Demo](https://raw.githubusercontent.com/kinglion/cosmos-bin/c307ec34edc254dae8ed5ad386a9199f00cac1a7/tmp/1.png)
