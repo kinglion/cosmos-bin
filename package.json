@@ -29,10 +29,13 @@
   "homepage": "https://github.com/kinglion/cosmos-bin#readme",
   "dependencies": {
     "co-mocha": "^1.2.0",
+    "colors": "^1.1.2",
     "common-bin": "^2.2.0",
+    "debug": "^3.0.0",
     "globby": "^6.1.0",
     "intelli-espower-loader": "^1.0.1",
-    "mocha": "^3.2.0"
+    "mocha": "^3.2.0",
+    "tinify": "^1.5.0"
   },
   "devDependencies": {
     "coffee": "^3.3.0",
