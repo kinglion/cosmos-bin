@@ -1,6 +1,6 @@
 {
   "name": "cosmos-bin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "cosmos helper tool",
   "main": "index.js",
   "bin": {
